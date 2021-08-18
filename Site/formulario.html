@@ -11,13 +11,18 @@
     <header>
         <nav>
             <div class="menu">
-                <span class="botao"><a href="paginainicial.html">Página Inicial</a></span>&nbsp;&nbsp;&nbsp;&nbsp;                
-                <span class="botao"><a href="segundapag.html">Página anterior</a></span>  
+                <span>
+                    <a href="paginainicial.html"><button type="button" class="botao">Página Inicial</button></a>
+                </span>&nbsp;&nbsp;
+                <span>
+                    <a href="segundapag.html"><button type="button" class="botao">Página anterior</button></a>
+                </span>                 
             </div>
             <h1>VH Contabilidade</h1>
         </nav>
     </header>
     <section>
+        <!--Este formulário será enviado por e-mail para o dono do site-->
         <form action="mailto:vitorhln@gmail.com" method="POST" enctype="text/plain">
             <table>
                 <tr>
@@ -26,9 +31,9 @@
                        <h4>Escolha o assunto sobre o qual precisa de informações:</h4>
                        <select name="assunto">
                            <option value="mei">MEI - Microempreendedor individual</option>
-                           <option value="mei">BPC - Benefício de prestação continuada</option>
-                           <option value="mei">Questões administrativas no Detran - Recurso</option>
-                           <option value="mei">Abertura de CNPJ</option>
+                           <option value="bpc">BPC - Benefício de prestação continuada</option>
+                           <option value="detran">Questões administrativas no Detran - Recurso</option>
+                           <option value="cnpj">Abertura de CNPJ</option>
                        </select>
                    </td> 
                 </tr>

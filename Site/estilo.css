@@ -63,3 +63,23 @@ form{
 h3{
     text-align: center;
 }
+.botao{
+    font-size: large;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color:rgb(155, 142, 56);
+    box-shadow:goldenrod 0 5px 5px;
+    border-radius: 10px;
+}
+.botao:hover{
+    font-size: large;
+    cursor: pointer;
+    background-color:rgb(138, 106, 27);
+    box-shadow:goldenrod 0 5px 5px;
+    border-radius: 10px;
+}
+.botao:active{
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+}
